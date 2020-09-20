@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #eaf5f1;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+header {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+header .container {
+	height: 50px;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+}
+
+header .container .info,
+header .container .language {
+	flex: 5;
+}
+
+header .container .language button:hover {
+	cursor: pointer;
+}
+
+header .container .logo {
+	font-size: px;
+	background-color: green;
+	flex: 2;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+
+footer .container {
+	height: 50px;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	height: 50px;
+	background-color: green;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav .container button:hover {
+	cursor: pointer;
+}
+
+main {
+	padding: 50px 0;
+}
+
+main .container {
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	text-align: center;
+}
+
+table tbody tr:first-child,
+table tbody tr:first-child:hover {
+	background-color: lightgray;
+	height: 50px;
+	color: black;
+}
+
+table tbody tr:hover {
+	background-color: green;
+	color: white;
+}
+
+table tbody tr th {
+	width: 150px;
+}
