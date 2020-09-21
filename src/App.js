@@ -31,6 +31,10 @@ class App extends React.Component {
 		this.setState({ isLanguageRus: !this.state.isLanguageRus });
 	};
 
+	onSearch = () => {};
+
+	sortBy = () => {};
+
 	render() {
 		const { data, isFetching, isLanguageRus } = this.state;
 
