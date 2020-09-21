@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/covid-statistics-app/static/css/main.274481e8.chunk.css",
-    "main.js": "/covid-statistics-app/static/js/main.8c96a61a.chunk.js",
-    "main.js.map": "/covid-statistics-app/static/js/main.8c96a61a.chunk.js.map",
+    "main.js": "/covid-statistics-app/static/js/main.a391da3e.chunk.js",
+    "main.js.map": "/covid-statistics-app/static/js/main.a391da3e.chunk.js.map",
     "runtime-main.js": "/covid-statistics-app/static/js/runtime-main.2d8e20f5.js",
     "runtime-main.js.map": "/covid-statistics-app/static/js/runtime-main.2d8e20f5.js.map",
     "static/js/2.8fc0a50c.chunk.js": "/covid-statistics-app/static/js/2.8fc0a50c.chunk.js",
     "static/js/2.8fc0a50c.chunk.js.map": "/covid-statistics-app/static/js/2.8fc0a50c.chunk.js.map",
     "index.html": "/covid-statistics-app/index.html",
-    "precache-manifest.fe408df594d0b888a81e0d6a401a5e00.js": "/covid-statistics-app/precache-manifest.fe408df594d0b888a81e0d6a401a5e00.js",
+    "precache-manifest.5fca270dd6fdd5d5a33fd5447861100a.js": "/covid-statistics-app/precache-manifest.5fca270dd6fdd5d5a33fd5447861100a.js",
     "service-worker.js": "/covid-statistics-app/service-worker.js",
     "static/css/main.274481e8.chunk.css.map": "/covid-statistics-app/static/css/main.274481e8.chunk.css.map",
     "static/js/2.8fc0a50c.chunk.js.LICENSE.txt": "/covid-statistics-app/static/js/2.8fc0a50c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2d8e20f5.js",
     "static/js/2.8fc0a50c.chunk.js",
     "static/css/main.274481e8.chunk.css",
-    "static/js/main.8c96a61a.chunk.js"
+    "static/js/main.a391da3e.chunk.js"
   ]
 }
