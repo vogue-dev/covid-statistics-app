@@ -39,12 +39,12 @@ class App extends React.Component {
 				<header>
 					<div className="container">
 						<div className="info">
-							{isLanguageRus === false ? 'Only actual information' : 'Только актуальная информация'}
+							{isLanguageRus === false ? 'The most recent data!' : 'Самые свежие данные!'}
 						</div>
 						<div className="logo">COVID STAT</div>
 						<div className="language">
 							<button onClick={this.onChangeLanguage}>
-								Language: {isLanguageRus ? 'translate to English' : 'перевести на русский'}
+								Language: {isLanguageRus ? 'English' : 'Русский'}
 							</button>
 						</div>
 					</div>
@@ -67,12 +67,12 @@ class App extends React.Component {
 								<tbody>
 									<tr>
 										<th>{isLanguageRus ? 'Страна' : 'Country'}</th>
-										<th>{isLanguageRus ? 'Всего случаев' : 'TotalConfirmed'}</th>
-										<th>{isLanguageRus ? 'Новых случаев' : 'NewConfirmed'}</th>
-										<th>{isLanguageRus ? 'Новых смертей' : 'NewDeaths'}</th>
-										<th>{isLanguageRus ? 'Всего смертей' : 'TotalDeaths'}</th>
-										<th>{isLanguageRus ? 'Выздоровели сегодня' : 'NewRecovered'}</th>
-										<th>{isLanguageRus ? 'Всего вылечившихся' : 'TotalRecovered'}</th>
+										<th>{isLanguageRus ? 'Всего случаев' : 'Total Confirmed'}</th>
+										<th>{isLanguageRus ? 'Новых случаев' : 'New Confirmed'}</th>
+										<th>{isLanguageRus ? 'Новых смертей' : 'New Deaths'}</th>
+										<th>{isLanguageRus ? 'Всего смертей' : 'Total Deaths'}</th>
+										<th>{isLanguageRus ? 'Выздоровели сегодня' : 'New Recovered'}</th>
+										<th>{isLanguageRus ? 'Всего вылечившихся' : 'Total Recovered'}</th>
 									</tr>
 									{isFetching ? (
 										<tr>

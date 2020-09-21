@@ -70,11 +70,12 @@ nav .container button:hover {
 
 main {
 	padding: 50px 0;
+	display: flex;
+	justify-content: center;
 }
 
 main .container {
-	display: flex;
-	justify-content: center;
+	overflow-y: scroll;
 }
 
 table {
@@ -93,6 +94,11 @@ table tbody tr:hover {
 	color: white;
 }
 
-table tbody tr th {
-	width: 150px;
+table tbody tr th:first-child {
+	min-width: 150px;
+}
+
+table tbody tr th:not(:first-child) {
+	width: 125px;
+	min-width: 125px;
 }
