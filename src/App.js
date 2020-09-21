@@ -56,6 +56,10 @@ class App extends React.Component {
 				<nav>
 					<div className="container">
 						<div className="buttons">
+							<div className="search">
+								{isLanguageRus ? 'Поиск по стране:' : 'Search by country: '}
+								<input></input>
+							</div>
 							<button>{isLanguageRus ? 'Таблица' : 'Table'}</button>
 							<button>{isLanguageRus ? 'На карте' : 'Map'}</button>
 							{/* <button>NewConfirmed & TotalConfirmed</button>
